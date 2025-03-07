@@ -1,0 +1,22 @@
+h1 {
+    font-family: Arial;
+    color: purple;
+}
+p {
+    font-family: Cambria, Cochin, Georgia;
+    color: crimson;
+    font-size: large
+}
+body {
+    background-color: violet;
+}
+b {
+    font-family: Verdana;
+    color: blue;
+    font-size: large;
+}
+l {
+    font-family: Tahoma;
+    color: indigo;
+    font-size: larger;
+}

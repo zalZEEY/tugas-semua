@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 05 - FORM</title>
+</head>
+<body>
+    
+    <form name="form01" action="">
+        <fieldset>
+            <legend>BIODATA</legend>
+            Nama: <input type="text" name="nama"><br />
+            Password: <input type="password" name="pass"><br />
+            Usia: <input type="number" name="usia" min="0" max="100"><br />
+            Tanggal: <input type="date" name="tgl"><br /><br />
+
+            Kelas: <input type="radio" name="kelas" value="xitkj1"> XI TKJ 1
+            <input type="radio" name="kelas" value="xitkj2"> XI TKJ 2
+            <input type="radio" name="kelas" value="xitkj3"> XI TKJ 3
+            <br />
+            <br />
+
+            Jenis HP:
+            <select name="hp">
+                <option value="0">-Pilih Jenis HP-</option>
+                <option value="ip11">IPhone 11</option>
+                <option value="ip12">IPhone 12</option>
+                <option value="ip13">IPhone 13</option>
+                <option value="ip14">IPhone 14</option>
+                <option value="ip15">IPhone 15</option>
+            </select><br />
+
+            ALAMAT:
+            <textarea name="alamat" cols="50" rows="10"></textarea><br /><br />
+
+            Cita - Cita di SMK SORE:<br />
+            <input type="checkbox" name="pekerjakeras" value="Pekerja Keras"> Pekerja Keras<br />
+            <input type="checkbox" name="it" value="Menguasai IT"> Menguasai IT<br />
+            <input type="checkbox" name="program" value="Bisa Pemograman"> Bisa Pemograman<br />
+
+            <br />
+            <br />
+            <input type="submit" name="kirim" value="KIRIM">
+        </fieldset>
+    </form>
+
+</body>
+</html>
